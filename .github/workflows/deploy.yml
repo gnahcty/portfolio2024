@@ -17,6 +17,12 @@ jobs:
       - name: checkout
         # 使用的 actions/checkout 複製程式碼
         uses: actions/checkout@v4
+        # Sets up Node.js environment
+      - name: Create Node Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16.x
+
       # 步驟二：編譯
       - name: Install and Build
         run: |
