@@ -3,7 +3,8 @@ name: Deploy
 # 觸發時機，當推送到分支 main 時
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 # 執行的工作
 jobs:
   # 工作名稱
@@ -15,7 +16,7 @@ jobs:
       # 步驟一：複製程式碼
       - name: checkout
         # 使用的 actions/checkout 複製程式碼
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # 步驟二：編譯
       - name: Install and Build
         run: |
