@@ -40,7 +40,7 @@
   </div>
 
   <div class="absolute inset-x-0 bottom-0 flex justify-center p-5 text-center lg:justify-end">
-    Swipe Left to Close <span>&#8594;</span>
+    Swipe Right to Close <span>&#8594;</span>
   </div>
 </template>
 
