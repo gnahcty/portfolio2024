@@ -19,10 +19,10 @@
         <section
           v-for="(work, i) in works"
           :key="i"
-          class="works flex-center z-10 ml-16 flex aspect-video w-[50vw] shrink-0"
+          class="works flex-center z-10 ml-16 flex aspect-video w-[50vw] shrink-0 hover:scale-105"
           :id="`work${i}`"
-          @click="emit('showWork', i)"
         >
+          <div class="absolute z-10 h-full w-full" @click="emit('showWork', i)"></div>
           <video-player
             :src="work.vid"
             preload="auto"

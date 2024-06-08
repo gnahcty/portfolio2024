@@ -4,7 +4,6 @@ import { ref } from 'vue'
 function getImageUrl(name) {
   return new URL(`../assets/img/${name}.png`, import.meta.url).href
 }
-
 function getVidUrl(name) {
   return new URL(`../assets/vids/${name}.mp4`, import.meta.url).href
 }

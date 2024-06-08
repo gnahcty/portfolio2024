@@ -101,6 +101,7 @@ export const signalAboutMeBG = (site) => {
     end: 'bottom top',
     onEnter: () => {
       site.bgBlack = true
+      gsap.set('#scrollDown', { display: 'none' })
     },
     onEnterBack: () => {
       site.bgBlack = true

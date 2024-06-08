@@ -1,14 +1,14 @@
 <template>
-  <div v-if="!site.AnimeCompleted">
+  <!-- <div v-if="!site.AnimeCompleted">
     <IntroAnime></IntroAnime>
   </div>
-  <div v-else>
-    <HeroPage class="section"></HeroPage>
-    <AboutMe class="section"></AboutMe>
-    <SkillSet class="section"></SkillSet>
-    <WorkCollection class="section"></WorkCollection>
-    <ContactMe class="section"></ContactMe>
-  </div>
+  <div v-else> -->
+  <HeroPage class="section"></HeroPage>
+  <AboutMe class="section"></AboutMe>
+  <SkillSet class="section"></SkillSet>
+  <WorkCollection class="section"></WorkCollection>
+  <ContactMe class="section"></ContactMe>
+  <!-- </div> -->
 </template>
 
 <script setup>

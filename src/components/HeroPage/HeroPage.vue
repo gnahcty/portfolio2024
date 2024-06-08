@@ -45,6 +45,11 @@
       <!-- shiro -->
     </div>
     <!-- imgs -->
+    <div
+      class="flex-center absolute inset-x-0 bottom-2 z-20 flex animate-bounce text-center text-5xl font-bold leading-none"
+    >
+      <span id="scrollDown" class="icon-[mingcute--down-fill]"> </span>
+    </div>
   </div>
 </template>
 

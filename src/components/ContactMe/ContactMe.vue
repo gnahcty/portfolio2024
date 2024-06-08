@@ -12,7 +12,7 @@
         </div>
       </div>
       <div
-        class="flex w-full flex-nowrap justify-between text-nowrap text-center text-[18vw] font-black uppercase leading-none"
+        class="flex w-full flex-nowrap justify-between text-nowrap text-center text-[18vw] font-black uppercase sm:leading-none"
       >
         <span>contact</span><span>me</span>
       </div>
