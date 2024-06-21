@@ -12,7 +12,9 @@
 
     <!-- content -->
     <div class="flex flex-auto items-start gap-5 sm:items-center sm:gap-0">
-      <div class="flex flex-auto flex-col-reverse gap-5 px-5 pb-4 lg:flex-row lg:justify-between">
+      <div
+        class="flex flex-auto flex-col-reverse gap-5 px-5 pb-4 lg:flex-row lg:justify-center"
+      >
         <!-- description & details -->
         <div class="flex flex-col justify-between gap-5 lg:w-96">
           <div class="text-md font-bold">{{ target.description }}</div>
@@ -39,14 +41,16 @@
     <!-- content -->
   </div>
 
-  <div class="absolute inset-x-0 bottom-0 flex justify-center p-5 text-center lg:justify-end">
+  <div
+    class="absolute inset-x-0 bottom-0 flex justify-center p-5 text-center lg:justify-end"
+  >
     Swipe Right to Close <span>&#8594;</span>
   </div>
 </template>
 
 <script setup>
-import { useDataStore } from '@/stores/data'
-const props = defineProps(['work'])
-const { portfolio } = useDataStore()
-const target = portfolio[props.work]
+import { useDataStore } from "@/stores/data";
+const props = defineProps(["work"]);
+const { portfolio } = useDataStore();
+const target = portfolio[props.work];
 </script>
