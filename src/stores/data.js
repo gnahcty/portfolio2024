@@ -35,12 +35,12 @@ export const useDataStore = defineStore('data', () => {
     {
       title: 'Event Scheduling Website 影展排程網站',
       description:
-        'An efficient event scheduling site crafted with PrimeVue, TailwindCSS, and GSAP, collaborating with a backend engineer using Axios.',
-      details: `與後端工程師協作，使用vue3 composition api做成的影展排程網站，使用axios串接API，並使用pinia作網站狀態管理。
-      使用者可以查看影展的詳細片單，並且做排程管理。
-      本專案專注於RWD以及視覺效果的呈現，按設計需求手刻了大多數元件，並且使用了GSAP來做動畫效果。撰寫網站時有嘗試做更好的元件切分及提升程式碼可讀性。`,
+        'A film festival scheduling website leveraging Vue.js, PrimeVue, Tailwind CSS, GSAP, and Pinia on the frontend, with a Node.js and MongoDB backend, providing an intuitive and powerful tool for movie enthusiasts to browse, bookmark, and schedule screenings effortlessly.',
+      details: `為影迷打造的一站式解決方案，利用現代化的技術堆疊，提供流暢且直觀的使用體驗。前端採用 Vue.js、PrimeVue、Tailwind CSS、GSAP 和 Pinia，後端由 Node.js 驅動，並使用 Mongoose 操作 MongoDB，採用 MVC 架構設計。
+      用戶可以根據影展單元或日期瀏覽片單，輕鬆找到並收藏自己感興趣的電影。排程管理功能允許用戶輕鬆刪除不需要的場次，並通過鎖定場次功能直接刪除相同電影的其他場次，簡化排程管理。當場次數量少於兩個時，系統會以橘色顯示提醒用戶，確保用戶不會錯過任何重要場次。
+      本專案專注於RWD以及視覺效果的呈現，按設計需求手刻了大多數元件，並且使用了GSAP來做動畫效果。`,
       img: getImageUrl('ffSchedular'),
-      vid: getVidUrl('dave_demo')
+      vid: getVidUrl('ffSchedular')
     },
     {
       title: 'Movie Forum 電影論壇',
