@@ -40,7 +40,8 @@ export const useDataStore = defineStore('data', () => {
       用戶可以根據影展單元或日期瀏覽片單，輕鬆找到並收藏感興趣的電影。排程管理功能允許用戶輕鬆刪除不需要的場次，並通過鎖定場次功能直接刪除相同電影的其他場次，簡化排程管理。當場次數量少於兩個時，系統會以橘色顯示提醒用戶，確保用戶不會錯過任何重要場次。
       本專案專注於RWD以及視覺效果的呈現，按設計需求手刻了大多數元件，並且使用了GSAP來做動畫效果。`,
       img: getImageUrl('ffSchedular'),
-      vid: getVidUrl('ffSchedular')
+      vid: getVidUrl('ffSchedular'),
+      link:'https://gnahcty.github.io/FFScheduler/#/'
     },
     {
       title: 'Movie Forum 電影論壇',
@@ -49,16 +50,18 @@ export const useDataStore = defineStore('data', () => {
       details:
         '使用Quasar框架製作的電影論壇，使用Node.js, Express, MongoDB製作後端，並且使用TMDb API串接電影資料。',
       img: getImageUrl('filmory'),
-      vid: getVidUrl('filmory')
+      vid: getVidUrl('filmory'),
+      link:'https://gnahcty.github.io/movie-review-website-practice_front/#/'
     },
     {
       title: 'metaCritic line bot 影評查詢機器人',
       description:
-        'A line bot that fetches movie ratings from Metacritic using Node.js, cheerio and Line Message API.',
+        'A line bot that fetches movie ratings from Metacritic using Node.js, cheerio and Line Messaging API.',
       details:
-        '使用Node.js製作的line bot，使用cheerio爬取Metacritic網站的資料，並且使用Line Message API來回應使用者的查詢。',
+        '使用Node.js製作的line bot，使用cheerio爬取Metacritic網站的資料，並且使用Line Messaging API來回應使用者的查詢。',
       img: new URL(`../assets/img/linebot.jpg`, import.meta.url).href,
-      vid: getVidUrl('metacriticLineBotDemo')
+      vid: getVidUrl('metacriticLineBotDemo'),
+      link:'https://'
     },
     {
       title: 'Help Dave Get Dressed! JQuery小遊戲',
@@ -67,7 +70,8 @@ export const useDataStore = defineStore('data', () => {
       details:
         '使用jQuery製作的卡牌小遊戲，使用css和jQuery增刪class來達到卡牌效果，最後使用bubble sort次數計分。',
       img: getImageUrl('dave_demo'),
-      vid: getVidUrl('dave_demo')
+      vid: getVidUrl('dave_demo'),
+      link:'https://gnahcty.github.io/jqery_cardgame_practice/'
     },
     {
       title: 'Feed the Cat! JQuery小遊戲',
@@ -75,7 +79,8 @@ export const useDataStore = defineStore('data', () => {
         'A delightful game created with jQuery where players feed the cat, featuring score tracking with localStorage.',
       details: '使用jQuery製作的簡單小遊戲，玩家要針對標的點擊按鈕改變游標，並且有分數紀錄功能。',
       img: getImageUrl('cat_demo'),
-      vid: getVidUrl('cat_game_demo')
+      vid: getVidUrl('cat_game_demo'),
+      link:'https://gnahcty.github.io/jqery-game-practice/'
     }
   ]
 

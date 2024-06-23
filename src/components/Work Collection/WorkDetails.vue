@@ -3,11 +3,15 @@
     class="flex h-[90vh] w-screen max-w-7xl flex-auto flex-col gap-5 overflow-y-auto overflow-x-clip sm:w-[90vw] sm:gap-0"
   >
     <!-- title -->
-    <div class="text-nowrap text-[10vw] font-black sm:leading-none">
-      <Vue3Marquee class="overflow-y-clip" :clone="true">
+    <a
+      class="text-nowrap text-[10vw] font-black sm:leading-none"
+      :href="target.link"
+      target="_blank"
+    >
+      <Vue3Marquee class="cursor-pointer select-none overflow-y-clip" :clone="true">
         <span class="flex-0 mx-5 text-nowrap">{{ target.title }}</span>
       </Vue3Marquee>
-    </div>
+    </a>
     <!-- title -->
 
     <!-- content -->
