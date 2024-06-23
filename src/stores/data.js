@@ -61,7 +61,7 @@ export const useDataStore = defineStore('data', () => {
         '使用Node.js製作的line bot，使用cheerio爬取Metacritic網站的資料，並且使用Line Messaging API來回應使用者的查詢。',
       img: new URL(`../assets/img/linebot.jpg`, import.meta.url).href,
       vid: getVidUrl('metacriticLineBotDemo'),
-      link:'https://'
+      link:'https://github.com/gnahcty/metacritic-film-score-linebot'
     },
     {
       title: 'Help Dave Get Dressed! JQuery小遊戲',
